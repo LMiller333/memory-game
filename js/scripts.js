@@ -134,19 +134,19 @@ function matchCheck(){
 
             //Adjust star rating
             matchesPerMove = numberMatched/moveCounter;
-            if (matchesPerMove>=0.6){
+            if (matchesPerMove>=0.4){
                 starRating=3;
                 $(".fa-star:eq(0)").addClass("star-filled");
                 $(".fa-star:eq(1)").addClass("star-filled");
                 $(".fa-star:eq(2)").addClass("star-filled");
             }
-            else if (matchesPerMove<0.6 && matchesPerMove>=0.3){
+            else if (matchesPerMove<0.4 && matchesPerMove>=0.2){
                 starRating=2;
                 $(".fa-star:eq(0)").addClass("star-filled");
                 $(".fa-star:eq(1)").addClass("star-filled");
                 $(".fa-star:eq(2)").removeClass("star-filled");
             }
-            else if (matchesPerMove<0.3){
+            else if (matchesPerMove<0.2){
                 starRating=1;
                 $(".fa-star:eq(0)").addClass("star-filled");
                 $(".fa-star:eq(1)").removeClass("star-filled");
