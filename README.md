@@ -35,7 +35,7 @@ This reloads the page and resets all stats on the dashboard.
 
 ## Author
 
-* **Lindsay Miller** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Lindsay Miller** - *Initial work* 
 
 ## License
 
