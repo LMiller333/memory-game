@@ -3,7 +3,7 @@
 This is a small JavaScript program that simulates the memory card game. Cards are "randomly" shuffled each time. The goal is to uncover all of the matches! The game also tracks number of moves (clicks), a star rating (based on your moves/match ratio), and elapsed time since first click.
 
 ## Logic Summary
-1. Shuffle "images" (font awesome icons) & insert into HTML "cards"
+1. Shuffle "images" (font awesome icons) & insert into hidden portion of HTML "cards"
 2.  Upon clicking a card, there are three possibilities:
   * If a card is already flipped (does not have class .d-none), click is ignored.
   * If a match is already in progress (checkingState===true), click is ignored.
