@@ -169,5 +169,3 @@ function matchCheck(){
         document.getElementById("timer").innerHTML = seconds;
     }
 
-    //TODO: Add modal for when all matched
-    //TODO: Jungle theme styling
