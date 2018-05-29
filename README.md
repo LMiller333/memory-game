@@ -1,6 +1,6 @@
 # Memory Matching Game: Wildlife Edition
 
-This is a small JavaScript program that simulates the memory card game. Cards are "randomly" shuffled each time. The goal is to uncover all of the matches! The game also tracks number of moves (clicks), a star rating (based on your moves/match ratio), and elapsed time since first click.
+This is a small JavaScript program that simulates the memory card game. Cards are "randomly" shuffled each time. The goal is to uncover all of the matches! The game also tracks number of moves (clicks), a star rating (based on your matches/moves ratio), and elapsed time since first click.
 
 ## Logic Summary
 1. Shuffle "images" (font awesome icons) & insert into hidden portion of HTML "cards"
@@ -18,7 +18,7 @@ This is a small JavaScript program that simulates the memory card game. Cards ar
 This increments by one with each "valid" click (clicks that aren't ignored).
 
 ### Star Rating
-The star rating is either 1, 2, or 3 and is based on the number of moves divided by the number of matches. A moves:matches ratio of 0.6 or greater corresponds to 3 stars. A ratio less than 0.6 but greater than/equal to 0.3 is two stars, and one star is anything below that. The star rating is translated into a visual by manipulating classes in JQuery.
+The star rating is either 1, 2, or 3 and is based on the number of matches divided by number of moves. A matches:move ratio of 0.6 or greater corresponds to 3 stars. A ratio less than 0.6 but greater than/equal to 0.3 is two stars, and one star is anything below that. The star rating is translated into a visual by manipulating classes in JQuery.
 
 ### Stopwatch
 The stopwatch uses setInterval, which increments the value of the variable seconds each 1000 ms (1 s). This is cleared once the number of matches reaches 16. 
