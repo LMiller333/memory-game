@@ -40,10 +40,10 @@ This runs the reset function, which restores original styles, clears icon, reshu
 This code may be used without attribution!
 
 ## Code Dependencies
-* [Google Fonts: Chelsea Market] (https://fonts.google.com/specimen/Chelsea+Market)
-* [FontAwesome 5.0.13] (https://fontawesome.com/get-started)
-* [JQuery 3.3.1] (https://code.jquery.com/) jquery-3.3.1.min.js
-* [Bootstrap 4.1.0] (https://getbootstrap.com/docs/4.1/getting-started/introduction/) bootstrap.min.css, popper.min.js, bootstrap.min.js
+* [Google Fonts: Chelsea Market](https://fonts.google.com/specimen/Chelsea+Market)
+* [FontAwesome 5.0.13](https://fontawesome.com/get-started)
+* [JQuery 3.3.1](https://code.jquery.com/) jquery-3.3.1.min.js
+* [Bootstrap 4.1.0](https://getbootstrap.com/docs/4.1/getting-started/introduction/) bootstrap.min.css, popper.min.js, bootstrap.min.js
 
 ## Acknowledgments
 
