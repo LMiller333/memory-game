@@ -1,6 +1,6 @@
 # Memory Matching Game: Wildlife Edition
 
-This is a small JavaScript program that simulates the memory card game. Cards are "randomly" shuffled each time. The goal is to uncover all of the matches! The game also tracks number of moves (clicks), a star rating (based on your number of moves), and elapsed time since first click.
+This is a small JavaScript program that simulates the memory card game. Cards are "randomly" shuffled each time. The goal is to uncover all of the matches! The game also tracks number of moves (1 move per attempted match), a star rating (based on your number of moves), and elapsed time since first click.
 
 ## Logic Summary
 1. Shuffle "images" (font awesome icons) & insert into hidden portion of HTML "cards"
@@ -15,7 +15,7 @@ This is a small JavaScript program that simulates the memory card game. Cards ar
 ## Other Features
 
 ### Move Counter
-This increments by one with each "valid" click (clicks that aren't ignored).
+This increments by one with each move. A move is considered flipping two cards for comparison.
 
 ### Star Rating
 The star rating is either 1, 2, or 3 and is based on the number of moves. 
@@ -38,6 +38,12 @@ This runs the reset function, which restores original styles, clears icon, reshu
 ## License
 
 This code may be used without attribution!
+
+## Code Dependencies
+* [Google Fonts: Chelsea Market] (https://fonts.google.com/specimen/Chelsea+Market)
+* [FontAwesome 5.0.13] (https://fontawesome.com/get-started)
+* [JQuery 3.3.1] (https://code.jquery.com/) jquery-3.3.1.min.js
+* [Bootstrap 4.1.0] (https://getbootstrap.com/docs/4.1/getting-started/introduction/) bootstrap.min.css, popper.min.js, bootstrap.min.js
 
 ## Acknowledgments
 
